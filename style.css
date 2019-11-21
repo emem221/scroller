@@ -1,0 +1,166 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: White;
+}
+
+.cake {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f3e5eb;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.cake {
+    background-image: url("cake.png");
+    min-height: 100%;
+    background-size: auto;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: gold;
+    text-align: center
+}
+
+.textSection {
+    background-color: #080808;
+    padding: 50px 80px;
+}
+
+.textList {
+    background-color: #080808;
+    padding: 50px 80px;
+}
+
+ul {
+    background-color: #080808;
+}
+
+.kitchen-equipment {
+    background-image: url("utensils.JPG");
+}
+
+.cake,
+.kitchen-equipment {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #080808;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.cake-ingredients {
+    background-image: url(cake-ingredients.JPG);
+}
+
+.cake,
+.kitchen-equipment,
+.cake-ingredients {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #080808;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+.chocolate-recipe {
+    background-image: url(chocolate-recipe.JPG);
+}
+
+.chocolate-recipe {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #080808;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.cake,
+.kitchen-equipment,
+.cake-ingredients .chocolate-recipe {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #080808;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: gold;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipe {
+    background-color: #080808;
+    padding: 50px 80px;
+}
+
+.howTo {
+    background-color: #080808;
+    padding: 50px 80px;
+}
+
+.cakeFrosting {
+    background-image: url(cake-frosting.JPG);
+}
+
+.frostingCakes {
+    background-color: #080808;
+    padding: 50px 80px;
+}
+
+.cakeFrosting {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #080808;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.cake,
+.kitchen-equipment,
+.cake-ingredients,
+.chocolate-recipe,
+.cakeFrosting {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #080808;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .cake,
+    .kitchen-equipment,
+    .ake-ingredients,
+    .chocolate-recipe,
+    .cakeFrosting,
+    {
+        background-attachment: scroll;
+    }
+}

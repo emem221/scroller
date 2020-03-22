@@ -159,8 +159,10 @@ ul {
     .kitchen-equipment,
     .ake-ingredients,
     .chocolate-recipe,
-    .cakeFrosting,
-    {
+    .cakeFrosting {
         background-attachment: scroll;
+    }
+    .border {
+        font-size: 20px;
     }
 }

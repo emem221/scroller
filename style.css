@@ -167,7 +167,7 @@ ul {
     }
 }
 
-@media only screen and (max-device-width: 650px) {
+@media only screen and (max-width: 650px) {
     .caption{
         font-size: 30px
     }

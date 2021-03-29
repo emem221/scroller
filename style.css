@@ -168,7 +168,7 @@ ul {
 }
 
 @media only screen and (max-width: 650px) {
-    .caption{
+    .caption>.border{
         font-size: 20px
     }
 }
